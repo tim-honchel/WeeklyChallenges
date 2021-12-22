@@ -231,14 +231,14 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(1, 0)]
         [InlineData(2, 1)]
         [InlineData(3, 1)]
-        [InlineData(4, 2)]
-        [InlineData(5, 2)]
-        [InlineData(6, 3)]
+        [InlineData(4, 2)] //
+        [InlineData(5, 2)] //
+        [InlineData(6, 3)] //
         [InlineData(7, 3)]
         [InlineData(1999999999, 999999999)]
-        [InlineData(2000000000, 1000000000)]
+        [InlineData(2000000000, 1000000000)] //
         [InlineData(-1, 0)]
-        [InlineData(-4, 0)]
+        [InlineData(-4, 0)] 
         [InlineData(-1000, 0)]
         public void CountOfPositiveOddsBelowNumber(int number, int expected)
         {
